@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+ <meta name="description" content="Webpage description goes here" />
+ <meta charset="utf-8">
+ <title>Change_me</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="author" content="">
+ <link rel="stylesheet" href="css/style.css">
+ <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+
+
+<body>
+ 
+<div class="container">
+   
+    
+     
+  <div class="myclass"></div>
+    <div  class="mysubject"></div>
+    <div  class="date"></div>
+
+ 
+</div>
+<form name="form1">  
+    Enter Class:<input type="text" name="myclass"/>  
+    <input type="button" onclick="printvalue()" value="print class"/>  
+    </form>  
+
+    <form name="form2">  
+        Enter Subject:<input type="text" name="mysubject"/>  
+        <input type="button" onclick="printvalue()" value="print Subject"/>  
+        </form>  
+
+        <form name="form3">  
+            Enter Date:<input type="text" name="date"/>  
+            <input type="button" onclick="printvalue()" value="print Date"/>  
+            </form>  
+
+            <script>
+     
+                function printvalue(){  
+                var myclass=document.form1.myclass.value;  
+                alert(myclass);  
+                }  
+    
+                function printvalue1(){  
+                var mysubject=document.form2.mysubject.value;  
+                alert(mysubject);  
+                }  
+
+
+
+                function printvalue1(){  
+                var date=document.form2.date.value;  
+                alert(date);  
+                }  
+    
+                var y = document.getElementsByClassName("myclass");
+                for (i = 0; i < x.length; i++) {
+                  y[i].style.display = "none";
+                }
+                index++;
+                if (index > x.length) {index = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(page, 1000);
+              
+            
+            </script>    
+                  
+
+
+            
+          
+          
+          </body>
+          </html>
+          
+          
+          
+
+
